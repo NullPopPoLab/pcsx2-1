@@ -523,6 +523,8 @@ void GSRendererNew::EmulateBlending(bool& DATE_PRIMID, bool& DATE_BARRIER)
 	// No blending or coverage anti-aliasing so early exit
 	if (FBMASK || PABE || !(PRIM->ABE || AA1))
 	{
+		if (FBMASK && PRIM->ABE)
+			fprintf(stderr, "No blend fbmask + abe\n");
 		m_conf.blend = {};
 		return;
 	}
