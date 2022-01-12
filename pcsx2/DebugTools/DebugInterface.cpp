@@ -20,7 +20,7 @@
 #include "R5900.h"
 #include "Debug.h"
 #include "VU.h"
-#include "GS.h" // Required for gsNonMirroredRead()
+#include "../GS.h" // Required for gsNonMirroredRead()
 #include "Counters.h"
 
 #include "R3000A.h"

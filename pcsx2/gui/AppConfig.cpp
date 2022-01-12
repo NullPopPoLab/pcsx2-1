@@ -186,13 +186,12 @@ namespace PathDefs
 
 	wxDirName GetSnapshots()
 	{
-		return GetDocuments() + Base::Snapshots();
+		return wxDirName("/userdata/screenshots");
 	}
 
 	wxDirName GetBios()
 	{
-		return GetDocuments() + Base::Bios();
-		;
+		return wxDirName("/userdata/bios");
 	}
 
 	wxDirName GetCheats()
@@ -212,7 +211,7 @@ namespace PathDefs
 
 	wxDirName GetSavestates()
 	{
-		return GetDocuments() + Base::Savestates();
+		return wxDirName("/userdata/saves/ps2");
 	}
 
 	wxDirName GetMemoryCards()

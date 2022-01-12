@@ -25,7 +25,7 @@
 #include "CDVD_internal.h"
 #include "CDVDisoReader.h"
 
-#include "GS.h" // for gsVideoMode
+#include "../GS.h" // for gsVideoMode
 #include "Elfheader.h"
 #include "ps2/BiosTools.h"
 

@@ -15,6 +15,9 @@
 
 #pragma once
 
+static const int GAMEPAD_NUMBER = 8;
+static const int MAX_KEYS = 24;
+
 #include <stdio.h>
 #include <assert.h>
 #include <array>
@@ -33,9 +36,6 @@
 #include "DebugTools/Debug.h"
 
 #define PADdefs
-
-static const u32 GAMEPAD_NUMBER = 2;
-static const u32 MAX_KEYS = 24;
 
 #include "Config.h"
 

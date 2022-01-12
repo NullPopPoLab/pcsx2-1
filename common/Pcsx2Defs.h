@@ -159,7 +159,7 @@ static const int __pagesize = PCSX2_PAGESIZE;
 #define __vectorcall __fastcall
 #define _inline __inline__ __attribute__((unused))
 #ifdef NDEBUG
-#define __forceinline __attribute__((always_inline, unused))
+#define __forceinline __attribute__((unused))
 #else
 #define __forceinline __attribute__((unused))
 #endif

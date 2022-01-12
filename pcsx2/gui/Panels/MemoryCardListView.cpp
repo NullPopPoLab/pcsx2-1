@@ -52,10 +52,10 @@ void BaseMcdListView::LoadSaveColumns( IniInterface& ini )
 
 		int width = GetColumnWidth(col);
 
-		ini.Entry( label, width, cinfo.width );
+		//ini.Entry( label, width, cinfo.width );
 		
-		if (ini.IsLoading())
-			SetColumnWidth(col, width);
+		//if (ini.IsLoading())
+		//	SetColumnWidth(col, width);
 	}
 }
 

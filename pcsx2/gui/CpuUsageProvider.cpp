@@ -22,7 +22,7 @@
 #include "System/SysThreads.h"
 #endif
 
-#include "GS.h"
+#include "../GS.h"
 #include "MTVU.h"
 
 void AllPCSX2Threads::LoadWithCurrentTimes()

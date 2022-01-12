@@ -36,7 +36,7 @@
 class DisassemblyDialog;
 struct HostKeyEvent;
 
-#include "GS.h"
+#include "../GS.h"
 #include "System.h"
 #include "System/SysThreads.h"
 
